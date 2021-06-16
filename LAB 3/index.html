@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video width="300" height="200" controls><source src="nothing.mp4" type="video/mp4">
+        Your browser does not support the video tag.</video>
+        <br>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/7Nn7NZI_LN4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <audio
+            controls
+            src="/sound.mp3">
+                Your browser does not support the audio element.
+        </audio>
+        <hr>
+        <h2><code>Testing...</code></h2>
+        <form action="/file.php">
+          <label for="tname">Text:</label><br />
+        <input type="text" id="iname" name="iname">  
+        <br>
+        <label for="rname">Radio:</label><br>
+        <input type="radio" id="rname" name="rname" value="Green">  <br>
+          <label for="cname">Checkbox:</label><br />
+        <input type="checkbox" id="cname" name="cname" value="Yellow">  <br />
+          
+          <label for="sname">Submit:</label><br />
+        <input type="submit" id="sname" name="sname">  <br />
+          <label for="bname">Button:</label><br />
+        <input type="button" id="bname" name="bname">  <br />
+          <hr>
+          <hr>
+          <label for="cars">Choose a car:</label>
+        
+        <select id="cars">
+          <option label="Volvo">Volvo</option>
+          <option label="Toyota">Toyota</option>
+          <option label="Mercedes">Mercedes</option>
+          <option label="Volkswagen">Volkswagen</option>
+        </select>
+          <br>
+          <br>
+          <label for="randtext">Random Text:</label>
+          <textarea id="area" name="area" rows="3" cols="30">
+        Input here...
+        </textarea>
+          <hr>
+          <h2><code>Form to fill:</code></h2>
+          <form action="/action_page.php">
+            <fieldset>
+              <legend>Bio</legend>
+              <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <br><br>
+            <input type="submit" value="Submit">
+            </fieldset>
+            <hr>
+            <label for="choice">Choose :</label>
+        <input list="types" id="choice" name="choice" />
+        
+        <datalist id="types">
+            <option value="Video">
+            <option value="Text">
+            <option value="Audio">
+        </datalist>
+</body>
+</html>
