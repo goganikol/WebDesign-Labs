@@ -1,0 +1,29 @@
+#grad{
+    background-image: linear-gradient(to left, blue,yellow,green);
+    width:40%;
+    height:400px;
+    margin:auto;
+    outline:4px double black;
+    outline-offset:15px;
+  }
+  
+  h1{
+    text-align:center;
+    text-shadow:3px 2px yellow;
+    outline:2px solid green;
+  }
+  
+  #rg{
+    background-image:radial-gradient(circle,yellow,green,red);
+    width:50%;
+    height:550px;
+    margin:auto;
+    box-shadow:6px 6px;
+  }
+  
+  h2{
+    color:white;
+    text-align:center;
+    height:auto;
+    text-shadow:4px 4px gray;
+  }
